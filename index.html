@@ -645,6 +645,53 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
                         </div>
                     </div>
                 </div>
+                <!-- Modal 2 -->
+                <div class="modal fade" id="example2Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">ERP System for Franckon Company</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+
+                                        <div class="col-md-9">
+
+                                            <div class="project" style="background-image: url(images/img-2.jpg);"></div>
+
+                                        </div>
+                                        <p>
+                                            <b>The Franckon PLC ERP System</b> is a comprehensive system that I have developed for managing human resources, authentication and authorization, and role-based permissions. The system has over 6 different
+                                            roles, including Super Admin, Purchaser, Site Engineer, Main Store Keeper, and Store Keeper 2. The system has a robust role, permission, and notification system, allowing for easy management of employees with
+                                            different roles.
+
+                                            <br></br>Features of the Franckon PLC System:
+                                            <ul>
+                                                <li>Project Management: Super Admin is responsible for adding projects and assigning Site Engineer employees for each project. They have the authority to approve ordered items and control the entire system.</li>
+                                                <li>Ordering System: Site Engineers can order items for their assigned projects.</li>
+                                                <li>Item Approval: Main Store Keeper checks whether approved items are available in the store or need to be purchased. They have the authority to assign the items to be purchased or obtained from the store.</li>
+                                                <li>Purchasing System: Purchaser has the responsibility to purchase items, adding purchased company name, and resetting images of the items. They receive orders for items to be purchased and buy them accordingly.</li>
+                                                <li>Delivery Management: Store Keeper 2 is responsible for delivering items to Site Engineers. They have access to both bought and stored items and deliver them to the appropriate engineers. Upon delivery, they
+                                                    can tick the delivered checkbox, and the status of the item changes to 'Completed.' If the item is undelivered, they can tick the undelivered checkbox, and the status of the item changes to 'Failed.'</li>
+                                                <li>Notification management</li>
+                                            </ul>
+                                            The Franckon PLC ERP System is a highly effective tool for managing human resources, item ordering, delivery, and purchasing. It is user-friendly, with a clean interface, and a robust system for managing different roles, permissions, and notifications.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section class="colorlib-work" data-section="work">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -689,11 +736,16 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
                             </div>
                             <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                <div class="project" style="background-image: url(images/img-2.jpg);">
-                                    <div class="desc">
+                                <div class="project" style="background-image: url(images/Ss.jpeg);">
+                                    <div class="desc" style="cursor: pointer;" data-toggle="modal" data-target="#example2Modal">
                                         <div class="con">
-                                            <h3><a href="work.html">Work 02</a></h3>
-                                            <span>Animation</span>
+                                            <h3><a>ERP System for Franckon Company</a></h3>
+                                            <button type="button" class="btn btn-primary" style="
+                                            margin-top: 20px;
+                                        "> 
+                                                Launch Project
+                                              </button>
+
                                             <!-- <p class="icon">
                                                 <span><a href="#"><i class="icon-share3"></i></a></span>
                                                 <span><a href="#"><i class="icon-eye"></i> 100</a></span>
